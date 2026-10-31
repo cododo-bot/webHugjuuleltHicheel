@@ -1,0 +1,18 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+  size: 500px;
+}
+p {
+  color: red;
+}
+a{
+    color: blue;
+    background-color: white;
+}
+a:hover{
+    color: green;
+    background-color: yellow;
+}

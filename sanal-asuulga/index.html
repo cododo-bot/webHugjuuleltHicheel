@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body>
+    <h1>Оюутны хоолны газрын санал асуулга</h1>
+    <form action="#" method="post">
+        <label for="name">Нэр</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Имэйл</label>
+        <input type="email" id="email" name="email" placeholder="ner@example.mn"><br><br>
+        <label for="age">Нас</label>
+        <input type="number" id="age" name="age" min="16" max="60"><br><br>
+        <fieldset form="form1">
+            <legend>Өдөрт хэдэн удаа хооллодог вэ?</legend>
+            <input type="radio" name="hool" id="ih">
+            <label for="ih">Өдөр бүр</label><br>
+            <input type="radio" name="hool" id="dundaj">
+            <label for="dundaj">7 хоногт 3-4 удаа</label><br>
+            <input type="radio" name="hool" id="baga">
+            <label for="baga">7 хоногт 1-2 удаа</label><br>
+            <input type="radio" name="hool" id="mash baga">
+            <label for="mash baga">хоол иддэггүй</label>
+        </fieldset><br>
+        <fieldset form="form1">
+            <legend>Ямар хоолонд дуртай вэ?</legend>
+            <input type="checkbox" name="food" id="buuz">
+            <label for="buuz">Бууз</label><br>
+            <input type="checkbox" name="food" id="tsuivan">
+            <label for="tsuivan">Цуйван</label><br>
+            <input type="checkbox" name="food"  id="salad">
+            <label for="salad">Салат</label><br>
+            <input type="checkbox" name="food" id="shol">
+            <label for="shol">Шөл</label><br>
+        </fieldset><br><br>
+        <label for="Course">Курс</label>
+        <select name="course" id="course">
+            <option>1-р курс</option>
+            <option>2-р курс</option>
+            <option>3-р курс</option>
+            <option>4-р курс</option>
+        </select><br><br>
+        <label>Сэтгэгдэл</label><br>
+        <textarea rows="4" cols="50" name="comment" form="usrform">Сэтгэгдэлээ бичнэ үү...</textarea><br><br>
+        <label for="ognoo">Сүүлд очсон огноо</label>
+        <input type="date" id="ognoo" name="ognoo"><br><br>
+        <label for="rating">Сэтгэл ханамж (1-10)</label>
+        <input type="range" id="rating" min="1" max="10"><br><br>
+        <button type="submit">Илгээх</button>
+        <button type="reset">Цэвэрлэх</button>
+    </form>
+</body>
+
+</html>
